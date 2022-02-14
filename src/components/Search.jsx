@@ -10,7 +10,7 @@ const Search = () => {
           name="search"
           type="text"
           className="form-control"
-          placeholder="Search"
+          placeholder="Search Cource Here"
           required
         />
         <label className="visually-hidden" htmlFor="search"></label>

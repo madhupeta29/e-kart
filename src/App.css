@@ -46,3 +46,17 @@
 .i-va{
   vertical-align: -0.125em;
 }
+
+.redGrad {
+  background: #d2ac00;
+  background-image: radial-gradient(circle at 38% 32%, #f4c652, #d2ac00 92%);
+
+}
+.blueGrad{
+  background: #0099c3;
+    background-image: radial-gradient(circle at 28% 36%, #00c5e3, #0099c3 99%);
+}
+.greenGrad{
+  background: #d2ac00;
+  background-image: radial-gradient(circle at 38% 32%, #f4c652, #d2ac00 92%);
+}

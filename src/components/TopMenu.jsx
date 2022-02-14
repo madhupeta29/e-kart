@@ -7,7 +7,7 @@ const TopMenu = () => {
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark p-0">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            E-Commerce
+            E-Learning
           </Link>
           <button
             className="navbar-toggler"
@@ -29,90 +29,70 @@ const TopMenu = () => {
                   data-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  All Pages
+                All  Courses
                 </button>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <Link className="dropdown-item" to="/account/signin">
-                      Sign In
+                    <Link className="dropdown-item" to="#">
+                      Cloud Computing
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item" to="/account/signup">
-                      Sign Up
-                    </Link>
-                  </li>
-                  <li>
-                    <hr className="dropdown-divider" />
-                  </li>
-                  <li>
-                    <Link className="dropdown-item" to="/checkout">
-                      Checkout Page
-                    </Link>
-                  </li>
-                  <li>
-                    <Link className="dropdown-item" to="/contact-us">
-                      Contact Us
-                    </Link>
-                  </li>
-                  <li>
-                    <Link className="dropdown-item" to="/blog">
-                      Blog
-                    </Link>
-                  </li>
-                  <li>
-                    <Link className="dropdown-item" to="/blog/detail">
-                      Blog Detail
+                    <Link className="dropdown-item" to="#">
+                    DevOps
                     </Link>
                   </li>
                   <li>
                     <hr className="dropdown-divider" />
                   </li>
                   <li>
-                    <Link className="dropdown-item" to="/fsafasf">
-                      404 Page Not Found
+                    <Link className="dropdown-item" to="#">
+                     BI and Visualization
                     </Link>
                   </li>
                   <li>
+                    <Link className="dropdown-item" to="#">
+                 Data Science
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="dropdown-item" to="#">
+                      Programming&Frameworks
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="dropdown-item" to="#">
+                      PG Programs
+                    </Link>
+                  </li>
+                  <li>
+                    <hr className="dropdown-divider" />
+                  </li>
+                  <li>
+                    <Link className="dropdown-item" to="#">
+                   Big Data
+                    </Link>
+                  </li>
+                  {/* <li>
                     <Link className="dropdown-item" to="/500">
                       500 Internal Server Error
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/category">
-                  Fashion
+                  Popular Courcess
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/category">
-                  Supermarket
+                  Univeristy Program
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/category">
-                  Electronics
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/category">
-                  Furniture
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/category">
-                  Garden & Outdoors
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/category">
-                  Jewellery
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/documentation">
-                  Documentation
+                  Master program
                 </Link>
               </li>
             </ul>

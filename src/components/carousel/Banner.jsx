@@ -7,8 +7,8 @@ const Item = ({ item, index }) => (
       <img src={item.img} className="img-fluid" alt={item.title} />
       {(item.title || item.description) && (
         <div className="carousel-caption d-none d-md-block">
-          {item.title && <h5>{item.title}</h5>}
-          {item.description && <p>{item.description}</p>}
+          {item.title && <h5 className="text-success">{item.title}</h5>}
+          {item.description && <p className="text-primary">{item.description}</p>}
         </div>
       )}
     </Link>

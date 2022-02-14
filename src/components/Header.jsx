@@ -20,16 +20,16 @@ const Header = () => {
           <div className="row g-3">
             <div className="col-md-3 text-center">
               <Link to="/">
-                <img
+                <img className="logo"
                   alt="logo"
-                  src="../../images/logo.webp"
+                  src="../../images/banner/R.png"
                 />
               </Link>
             </div>
-            <div className="col-md-5">
+            <div className="col-md-7">
               <Search />
             </div>
-            <div className="col-md-4">
+            <div className="col-md-2">
               <div className="position-relative d-inline mr-3">
                 <Link to="/cart" className="btn btn-primary">
                   <IconCart3 className="i-va" />
@@ -92,16 +92,7 @@ const Header = () => {
                   </li>
                 </ul>
               </div>
-              <a
-                href="https://www.buymeacoffee.com/bhaumik"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
-                  alt="BuyMeACoffee" width="120"
-                />
-              </a>
+              
               {/* <Link to="/account/signin">Sign In</Link> |{" "}
               <Link to="/account/signup"> Sign Up</Link> */}
             </div>
